@@ -1,8 +1,11 @@
+def calcular_preco_total(preco_unitario, quantidade):
+    return preco_unitario * quantidade
+
 nome_produto = "Cadeira Infantil"
 preco_unitario = 12.40
 quantidade = 3
 
-preco_total = preco_unitario * quantidade
+preco_total = calcular_preco_total(preco_unitario, quantidade)
 
 print("Produto:", nome_produto)
 print("Preço unitário: R$", preco_unitario)

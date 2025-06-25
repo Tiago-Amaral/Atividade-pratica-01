@@ -1,2 +1,4 @@
-# Programa de Saudação
-print("Olá, mundo!")
+def saudacao():
+    print("Olá, mundo!")
+
+saudacao()
